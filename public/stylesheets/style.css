@@ -1,0 +1,378 @@
+body {
+font: normal 11px "Arial", 'Helvetica', Verdana, sans-serif; 
+line-height: 1.455em;
+color: #737373;
+}
+
+p {
+text-align: left;
+}
+
+b, strong {
+font-weight: bold;
+}
+
+
+
+h2, h2 a {
+font: bold 12px/14px "Adobe Garamond", Times, 'Times New Roman', serif; 
+text-align: left; 
+text-transform: uppercase; 
+letter-spacing: 2px; 
+color: #000;
+} 
+
+h1, h1 a {
+font: 14px "Adobe Garamond", Times, 'Times New Roman', serif; 
+text-align: center; 
+text-transform: uppercase; 
+letter-spacing: 2px; 
+color: #000;
+} 
+
+li {
+	text-align: -webkit-match-parent;
+	}
+
+
+html, body {
+	line-height: 1;
+	width:100%;
+	}
+
+.myName a:hover{
+	text-decoration:none;
+}
+
+a {
+	text-decoration:none;
+	}
+
+a:hover {
+	text-decoration:underline;
+	}
+
+
+#headContainer{
+	position:relative;
+	margin:0px auto;
+	text-align: center;
+	width:100%;
+	min-width:1100px;
+}
+
+#header {
+	height: 230px;
+    background-color: #748599;	
+  	position: relative;
+    overflow: visible;
+   	width:100%;
+   	min-width:1000px;
+   	margin:auto;
+   	border-bottom:1px solid #ccc;
+
+   	}
+
+h1 a span{
+	display: none;
+	}
+	
+.bears{	
+	margin-top:38px;
+
+	}
+
+.nav{
+	display: block;
+	margin: 8px auto;
+	text-align: center;
+	}
+
+.nav li{
+	display: inline;
+	margin: 0 8px 0 0;	
+	}
+
+.nav .workNav{
+	font-family: 'Cabin', Arial sans-serif;
+	color: #f0c145;
+	font-style: italic;
+	font-size: 12px; 
+	border-bottom: 1px solid #f0c145;
+	}
+.nav .workNavnoHome{
+	font-family: 'Cabin', Arial sans-serif;
+	color: #f0c145;
+	font-style: italic;
+	font-size: 12px; 
+}
+
+.nav .contactNav{
+	font-family: 'Cabin', Arial sans-serif;
+	color: #f0c145;
+	font-style:italic;
+	font-size: 12px;
+	}
+
+.nav a.workNav{
+	text-decoration:none;
+}	
+	
+#container {
+	position: relative; 
+	margin: 0px auto 0px auto; 
+	text-align: center;
+	width:1100px;
+	/*min-width:1100px;*/
+	}
+
+.contentModule {
+	position: relative;
+	zoom: 1;
+	display:block;
+	margin:40px auto 20px auto;
+	border-bottom: 1px solid #ccc;
+	width:1100px;
+	/*padding: 5px 5px 5px;
+	text-align:center;*/
+	/*margin:50px auto 20px;*/
+	}
+
+.indexWork{
+	display:block;
+	float:left;
+	margin: 40px 50px 70px 40px;
+	height: 290px; 
+	width: 270px; 
+	text-align:left;
+	}
+	
+.indexWork span{
+    font-family:"Cabin",'Arial','helvetica', sans-serif;
+    font-size: 9px;
+    font-style: italic;
+    color:#748599;
+    text-transform:none;
+    letter-spacing: none;
+    font-weight:normal;
+    
+}
+
+.indexWork img{
+	width:100%;
+	}
+	
+.workTitle{
+	margin: 0 0 9px;
+	}
+
+h2, h2 a{
+	font: bold 12px "Adobe Garamond", Times, 'Times New Roman', serif;
+	line-height: 1.167em;
+	text-align: left;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	color:black;
+	}
+	
+.socialIcons{
+    position:relative;
+    display:block;
+    text-align: left;
+    margin: auto; 
+    bottom:10px;  
+    }
+    
+.socialIcons ul li{
+    display:inline;
+    }
+.socialIcons a:hover{
+    text-decoration:none;
+}    
+    
+ img.twitterbird:hover{
+    background-image:url('./images/Twitter_active.png') 
+ }
+
+.workDescript{
+	display:block;
+	font:normal 11px "Arial", 'Helvetica', 'verdana' sans-serif;
+	line-height: 1.455em;
+	color:#737373;
+	margin-bottom: 20px;
+	}
+
+	
+.clear{
+	clear:both;
+	}	
+	
+#footer {
+	text-align: left;
+	display:block;
+	margin:0 auto;
+	padding:0 40px;
+	}
+
+
+	
+#footer #aboutsect{
+	float:left;
+	width:300px;
+}
+
+#footer #aboutsect h2{
+	font: bold 12px"Adobe Garamond", Times, 'Times New Roman', serif;
+	line-height:1.167em;
+	text-align: left;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	color:black;
+}
+
+#footer	.infoMe{
+	position:relative;
+	float:right;
+	right:0
+	left:0
+	width:300px;
+	
+}
+#footer p{
+	font-family:'Arial', 'Helvetica', 'verdana' sans-serif;
+	color:#737373;
+	font-size: 10px;
+	line-height:1.8em;
+	text-align: left;
+	margin-bottom:20px;
+	}	
+	
+#footernav{
+	position:relative;
+	display:block;
+	float:left;
+	margin-bottom:70px;
+}
+
+#footernav a{
+    position:relative;
+}
+
+#footer a{
+	font-family: 'Cabin', Arial sans-serif;
+	font-size:11px;
+	font-weight:bold;
+	text-align: left;
+	letter-spacing: 1px;
+	color: #748599;
+	}
+
+#leftRail{
+	float:left;
+	text-align:left;
+	width:700px;
+	border-right: 1px dashed #ccc;
+}	
+
+	
+.sampleWork img{
+	margin:10px 0px 50px 40px;
+	width:600px;
+	}
+	
+.sampleWork img:hover{
+    opacity:0.8;
+    
+}
+
+.sampleWork_noFull img{
+    margin:10px 0px 50px 40px;
+	width:600px;
+}
+
+
+#rightRail{
+	float:right;
+	text-align:left;
+	margin-top:10px;
+	height:100%;
+}
+.project_descriptions{
+	display:block;
+	margin:0px 80px 0px 0px;
+	width: 300px;
+	}
+
+h3{
+	font-family: "Arial", 'Helvetica', 'verdana' sans-serif;
+	font-size:11px;
+	color:#333;
+	font-weight:bold;	
+	padding-bottom:10px;
+
+}
+
+.description_unit1{
+	float:right;
+	padding: 20px;
+	margin-top:20px;
+	margin-bottom:130px;
+}
+
+.description_unit2{
+	float:right;
+	padding: 20px;
+	margin-bottom:80px;
+}
+.description_unit3{
+	float:right;
+	padding: 20px;
+	margin-bottom:20px;
+}
+
+
+.project_descriptions .projexplanation{
+	display:block;
+	font:11px "Arial", 'Helvetica', 'verdana' sans-serif;
+	line-height:1.455em;
+	color:#737373;
+	margin-bottom: 20px;
+	line-height:16px;
+	}
+
+.project_descriptions .projexplanation a{
+	font:11px/14px "Cabin", 'Arial', 'Helvetica', 'verdana' sans-serif;
+	font-size:10px;
+	color:#748599;
+	font-style: italic;
+}
+
+
+.line{
+	width:1px;
+	border-left:1px dashed #ccc;
+	
+}
+
+a.backtoPort {
+    font-family:"Cabin",'Arial',"Helvetica", sans-serif;
+    font-style:italic;
+    margin-left:40px;
+    font-size:9px;
+    color:#666;
+}
+
+.work-thumbnail img:hover{
+    opacity:.9
+
+}
+
+#birdseye{
+	text-align:left;
+	margin: auto;
+	padding-bottom:20px;
+}
+
+#centerRail{
+	margin-bottom:40px;
+}

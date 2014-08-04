@@ -1,0 +1,220 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+html, body {
+	line-height: 1;
+	width:100%;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+input:focus, textarea:focus{
+	outline: none;
+}
+/* remember to define visible focus styles! 
+:focus {
+	outline: ?????;
+} */
+
+/* remember to highlight inserts somehow! */
+ins {
+	text-decoration: none;
+}
+del {
+	text-decoration: line-through;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+.clr{
+	height:0px;
+	margin:0;
+	padding:0;
+	clear:both;
+}
+.left{
+	float:left !important;
+}
+.right{
+	float:right !important;
+}
+a{
+	text-decoration:none;
+}
+a:hover{
+	text-decoration:underline;
+}
+.clearfix:after{
+	content:".";
+	text-indent:-9999px;
+	display:block;
+	clear:both;
+	height:0;
+}
+.clearfix:before{
+	content:".";
+	text-indent:-9999px;
+	display:block;
+	clear:both;
+	height:0;
+}
+
+
+#container {
+	position: relative; 
+	margin: auto; 
+	text-align: center;
+}
+
+#header {
+	position: relative; 
+	width: 100%;
+	background: #748599;
+	height: 288px;
+	
+}
+
+a{
+	text-decoration: none;
+}
+
+ol, ul{
+	list-style: none;
+	
+}
+
+h1 a span{
+	display: none;
+}
+.bears{
+
+	margin-top:38px;
+}
+
+#container #header .myName h1 a{
+	font: bold 12px/14px "Adobe Garamond", Times, 'Times New Roman', serif
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	color:black;
+	text-decoration: none;
+}
+
+
+.nav{
+	display: block;
+	margin: 10px auto;
+	text-align: center;
+}
+
+.nav li{
+	display: inline;
+	margin: 0 8px 0 0;
+	
+}
+
+.nav .workNav{
+	font-family: 'Cabin', Arial sans-serif;
+	color: #f0c145;
+	font-style: italic;
+	font-size: 12px; 
+}
+
+.nav .contactNav{
+	font-family: 'Cabin', Arial sans-serif;
+	color: #f0c145;
+	font-style:italic;
+	font-size: 12px;
+}
+
+
+#aboutMe {
+	width:100%;
+	margin: 60px auto;
+	
+
+}
+
+#aboutMe p{
+	font-family:'Arial', 'Helvetica', 'verdana' sans-serif;
+	color:#666;
+	font-size: 11px;
+	line-height:18px;
+	text-align:center;
+	
+}
+
+#aboutMe p span{
+	font-weight:bold;
+	color:black;	
+	font-size: 100%;
+}
+
+
+.content {
+	margin: 0 auto; 
+	width: 100%;
+}
+
+.indexWork{
+	display:block;
+	float:left;
+	margin: 0 30px 30px;
+	height: 290px; 
+	width: 250px; 
+	text-align:left;
+	
+}
+
+.workTitle{
+	margin: 0 0 9px;
+	
+}
+
+h2, h2 a{
+	font: bold 12px/14px "Adobe Garamond", Times, 'Times New Roman', serif;
+	text-align: left;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	color:black;
+}
+
+.workDescript{
+	font:11px/14px "Arial", 'Helvetica', 'verdana' sans-serif;
+	color:#666766;
+	margin-bottom: 20px;
+}
+	
+#footer {display: block; margin: 60px 15px 0;}	
